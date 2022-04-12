@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+	<Properties>
+		<Property name="filename">logs</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="fileLogger"
+			fileName="C:/Users/ganya_thimmappa/eclipse-workspace/first/${filename}/logdemo.log"
+			filePattern="C:/Users/ganya_thimmappa/eclipse-workspace/first/${filename}/Logdemo-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10MB" />
+			</Policies>	
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.main.first" additivity="false"
+			level="info">
+			<AppenderRef ref="fileLogger" />
+			
+		</Logger>
+		<Logger name="com.main.first.dto" additivity="false"
+			level="info">
+			<AppenderRef ref="fileLogger" />
+			
+		</Logger>
+		<Logger name="com.main.first.repo" additivity="false"
+			level="info">
+			<AppenderRef ref="fileLogger" />
+			
+		</Logger>
+		<Logger name="com.main.first.service" additivity="false"
+			level="info">
+			<AppenderRef ref="fileLogger" />
+			
+		</Logger>
+		<Root level="info" additivity="false">
+			<appender-ref ref="fileLogger" />
+		</Root>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,179 @@
+[INFO ] 2022-03-30 10:19:22.689 [http-nio-8080-exec-7] UserRepo - connection open
+[INFO ] 2022-03-30 10:19:23.221 [http-nio-8080-exec-7] MyResource - Hitting the post API
+[INFO ] 2022-03-30 10:19:23.221 [http-nio-8080-exec-7] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 10:19:23.221 [http-nio-8080-exec-7] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 10:19:23.221 [http-nio-8080-exec-7] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:19:23.298 [http-nio-8080-exec-7] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:19:23.298 [http-nio-8080-exec-7] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:19:23.298 [http-nio-8080-exec-7] UserService - entered to password validation block
+[INFO ] 2022-03-30 10:19:23.301 [http-nio-8080-exec-7] UserService - exit : validate method
+[INFO ] 2022-03-30 10:19:23.301 [http-nio-8080-exec-7] MyResource - if block executed :login successful
+user_id : 1
+user_name : userone
+fullname : rajesh
+date_of_birth : 1999-01-01 05:05:05
+password : ***** 
+[INFO ] 2022-03-30 10:19:23.301 [http-nio-8080-exec-7] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 10:19:23.301 [http-nio-8080-exec-7] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 10:19:57.163 [http-nio-8080-exec-1] UserRepo - connection open
+[INFO ] 2022-03-30 10:19:57.163 [http-nio-8080-exec-1] MyResource - Hitting the post API
+[INFO ] 2022-03-30 10:19:57.164 [http-nio-8080-exec-1] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 10:19:57.164 [http-nio-8080-exec-1] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 10:19:57.164 [http-nio-8080-exec-1] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:19:57.170 [http-nio-8080-exec-1] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:19:57.170 [http-nio-8080-exec-1] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:19:57.170 [http-nio-8080-exec-1] UserService - exit : validate method
+[ERROR] 2022-03-30 10:19:57.170 [http-nio-8080-exec-1] MyResource - login unsuccessful and going through else block
+[INFO ] 2022-03-30 10:19:57.170 [http-nio-8080-exec-1] UserService - entered to readfile method to read from properties file
+[INFO ] 2022-03-30 10:19:57.204 [http-nio-8080-exec-1] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:19:57.206 [http-nio-8080-exec-1] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:19:57.206 [http-nio-8080-exec-1] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:19:57.206 [http-nio-8080-exec-1] UserService - User already exists , enter valid password
+[INFO ] 2022-03-30 10:19:57.206 [http-nio-8080-exec-1] UserService - exit : readFilee method
+[INFO ] 2022-03-30 10:19:57.206 [http-nio-8080-exec-1] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 10:19:57.207 [http-nio-8080-exec-1] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 10:20:43.111 [http-nio-8080-exec-5] UserRepo - connection open
+[INFO ] 2022-03-30 10:20:43.111 [http-nio-8080-exec-5] MyResource - Hitting the post API
+[INFO ] 2022-03-30 10:20:43.112 [http-nio-8080-exec-5] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 10:20:43.112 [http-nio-8080-exec-5] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 10:20:43.112 [http-nio-8080-exec-5] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:20:43.116 [http-nio-8080-exec-5] UserRepo - find by id has sent null 
+[INFO ] 2022-03-30 10:20:43.117 [http-nio-8080-exec-5] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:20:43.117 [http-nio-8080-exec-5] UserService - exit : validate method
+[ERROR] 2022-03-30 10:20:43.117 [http-nio-8080-exec-5] MyResource - login unsuccessful and going through else block
+[INFO ] 2022-03-30 10:20:43.117 [http-nio-8080-exec-5] UserService - entered to readfile method to read from properties file
+[INFO ] 2022-03-30 10:20:43.118 [http-nio-8080-exec-5] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:20:43.121 [http-nio-8080-exec-5] UserRepo - find by id has sent null 
+[INFO ] 2022-03-30 10:20:43.121 [http-nio-8080-exec-5] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:20:43.121 [http-nio-8080-exec-5] UserRepo - Entered to method create 
+[INFO ] 2022-03-30 10:20:43.121 [http-nio-8080-exec-5] UserRepo - Entered to create method to add DB 
+[INFO ] 2022-03-30 10:20:43.122 [http-nio-8080-exec-5] UserRepo - user_id :8
+[INFO ] 2022-03-30 10:20:43.122 [http-nio-8080-exec-5] UserRepo - full_name :Ranjith
+[INFO ] 2022-03-30 10:20:43.122 [http-nio-8080-exec-5] UserRepo - user_name :usereight
+[INFO ] 2022-03-30 10:20:43.122 [http-nio-8080-exec-5] UserRepo - Password : *****
+[INFO ] 2022-03-30 10:20:43.186 [http-nio-8080-exec-5] UserRepo - try block executed and added succeessfully to DB
+[INFO ] 2022-03-30 10:20:43.186 [http-nio-8080-exec-5] UserRepo - Exit :method create 
+[INFO ] 2022-03-30 10:20:43.186 [http-nio-8080-exec-5] UserService - user registered successfully
+[INFO ] 2022-03-30 10:20:43.187 [http-nio-8080-exec-5] UserService - exit : readFilee method
+[INFO ] 2022-03-30 10:20:43.187 [http-nio-8080-exec-5] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 10:20:43.187 [http-nio-8080-exec-5] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 10:26:50.668 [http-nio-8080-exec-7] UserRepo - connection open
+[INFO ] 2022-03-30 10:26:50.669 [http-nio-8080-exec-7] MyResource - Hitting the post API
+[INFO ] 2022-03-30 10:26:50.670 [http-nio-8080-exec-7] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 10:26:50.670 [http-nio-8080-exec-7] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 10:26:50.670 [http-nio-8080-exec-7] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:26:50.675 [http-nio-8080-exec-7] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:26:50.675 [http-nio-8080-exec-7] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:26:50.675 [http-nio-8080-exec-7] UserService - entered to password validation block
+[INFO ] 2022-03-30 10:26:50.675 [http-nio-8080-exec-7] UserService - exit : validate method
+[INFO ] 2022-03-30 10:26:50.675 [http-nio-8080-exec-7] MyResource - if block executed :login successful
+user_id : 2
+user_name : usertwo
+fullname : ram
+date_of_birth : 1999-02-02 05:05:05
+password : ***** 
+[INFO ] 2022-03-30 10:26:50.676 [http-nio-8080-exec-7] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 10:26:50.676 [http-nio-8080-exec-7] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 10:26:58.898 [http-nio-8080-exec-8] UserRepo - connection open
+[INFO ] 2022-03-30 10:26:58.900 [http-nio-8080-exec-8] MyResource - Hitting the post API
+[INFO ] 2022-03-30 10:26:58.900 [http-nio-8080-exec-8] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 10:26:58.900 [http-nio-8080-exec-8] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 10:26:58.900 [http-nio-8080-exec-8] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:26:58.908 [http-nio-8080-exec-8] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:26:58.908 [http-nio-8080-exec-8] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:26:58.908 [http-nio-8080-exec-8] UserService - exit : validate method
+[ERROR] 2022-03-30 10:26:58.908 [http-nio-8080-exec-8] MyResource - login unsuccessful and going through else block
+[INFO ] 2022-03-30 10:26:58.908 [http-nio-8080-exec-8] UserService - entered to readfile method to read from properties file
+[INFO ] 2022-03-30 10:26:58.909 [http-nio-8080-exec-8] UserRepo - Entered method findById
+[INFO ] 2022-03-30 10:26:58.917 [http-nio-8080-exec-8] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 10:26:58.917 [http-nio-8080-exec-8] UserRepo - Exit method findById
+[INFO ] 2022-03-30 10:26:58.917 [http-nio-8080-exec-8] UserService - User already exists , enter valid password
+[INFO ] 2022-03-30 10:26:58.917 [http-nio-8080-exec-8] UserService - exit : readFilee method
+[INFO ] 2022-03-30 10:26:58.918 [http-nio-8080-exec-8] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 10:26:58.919 [http-nio-8080-exec-8] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 13:16:08.855 [http-nio-8080-exec-5] MyResource - Hitting the post API
+[INFO ] 2022-03-30 13:16:08.899 [http-nio-8080-exec-5] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 13:16:08.900 [http-nio-8080-exec-5] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 13:16:10.337 [http-nio-8080-exec-5] UserRepo - connection open
+[INFO ] 2022-03-30 13:16:10.337 [http-nio-8080-exec-5] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:16:10.468 [http-nio-8080-exec-5] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 13:16:10.468 [http-nio-8080-exec-5] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:16:10.471 [http-nio-8080-exec-5] UserRepo - connection close
+[INFO ] 2022-03-30 13:16:10.471 [http-nio-8080-exec-5] UserService - entered to password validation block
+[INFO ] 2022-03-30 13:16:10.481 [http-nio-8080-exec-5] UserService - exit : validate method
+[INFO ] 2022-03-30 13:16:10.481 [http-nio-8080-exec-5] MyResource - if block executed :login successful
+user_id : 1
+user_name : userone
+fullname : rajesh
+date_of_birth : 1999-01-01 05:05:05
+password : ***** 
+[INFO ] 2022-03-30 13:16:10.481 [http-nio-8080-exec-5] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 13:16:10.482 [http-nio-8080-exec-5] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 13:16:40.120 [http-nio-8080-exec-10] MyResource - Hitting the post API
+[INFO ] 2022-03-30 13:16:40.120 [http-nio-8080-exec-10] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 13:16:40.120 [http-nio-8080-exec-10] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 13:16:40.187 [http-nio-8080-exec-10] UserRepo - connection open
+[INFO ] 2022-03-30 13:16:40.188 [http-nio-8080-exec-10] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:16:40.193 [http-nio-8080-exec-10] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 13:16:40.193 [http-nio-8080-exec-10] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] UserRepo - connection close
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] UserService - entered to password validation block
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] UserService - exit : validate method
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] MyResource - if block executed :login successful
+user_id : 1
+user_name : userone
+fullname : rajesh
+date_of_birth : 1999-01-01 05:05:05
+password : ***** 
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 13:16:40.195 [http-nio-8080-exec-10] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 13:16:49.453 [http-nio-8080-exec-2] MyResource - Hitting the post API
+[INFO ] 2022-03-30 13:16:49.454 [http-nio-8080-exec-2] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 13:16:49.454 [http-nio-8080-exec-2] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 13:16:49.530 [http-nio-8080-exec-2] UserRepo - connection open
+[INFO ] 2022-03-30 13:16:49.530 [http-nio-8080-exec-2] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:16:49.537 [http-nio-8080-exec-2] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 13:16:49.537 [http-nio-8080-exec-2] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:16:49.539 [http-nio-8080-exec-2] UserRepo - connection close
+[INFO ] 2022-03-30 13:16:49.539 [http-nio-8080-exec-2] UserService - exit : validate method
+[ERROR] 2022-03-30 13:16:49.539 [http-nio-8080-exec-2] MyResource - login unsuccessful and going through else block
+[INFO ] 2022-03-30 13:16:49.539 [http-nio-8080-exec-2] UserService - entered to readfile method to read from properties file
+[INFO ] 2022-03-30 13:16:49.614 [http-nio-8080-exec-2] UserRepo - connection open
+[INFO ] 2022-03-30 13:16:49.614 [http-nio-8080-exec-2] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:16:49.619 [http-nio-8080-exec-2] UserRepo - find by id has sent details
+[INFO ] 2022-03-30 13:16:49.620 [http-nio-8080-exec-2] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:16:49.621 [http-nio-8080-exec-2] UserRepo - connection close
+[INFO ] 2022-03-30 13:16:49.621 [http-nio-8080-exec-2] UserService - User already exists , enter valid password
+[INFO ] 2022-03-30 13:16:49.621 [http-nio-8080-exec-2] UserService - exit : readFilee method
+[INFO ] 2022-03-30 13:16:49.621 [http-nio-8080-exec-2] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 13:16:49.621 [http-nio-8080-exec-2] MyResource - ---------------------------------------------------------------
+[INFO ] 2022-03-30 13:17:27.665 [http-nio-8080-exec-5] MyResource - Hitting the post API
+[INFO ] 2022-03-30 13:17:27.665 [http-nio-8080-exec-5] MyResource - Entered to loginrequest method
+[INFO ] 2022-03-30 13:17:27.666 [http-nio-8080-exec-5] UserService - entered to validate method to fetch details by id
+[INFO ] 2022-03-30 13:17:27.716 [http-nio-8080-exec-5] UserRepo - connection open
+[INFO ] 2022-03-30 13:17:27.717 [http-nio-8080-exec-5] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:17:27.729 [http-nio-8080-exec-5] UserRepo - find by id has sent null 
+[INFO ] 2022-03-30 13:17:27.729 [http-nio-8080-exec-5] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:17:27.730 [http-nio-8080-exec-5] UserRepo - connection close
+[INFO ] 2022-03-30 13:17:27.731 [http-nio-8080-exec-5] UserService - exit : validate method
+[ERROR] 2022-03-30 13:17:27.731 [http-nio-8080-exec-5] MyResource - login unsuccessful and going through else block
+[INFO ] 2022-03-30 13:17:27.731 [http-nio-8080-exec-5] UserService - entered to readfile method to read from properties file
+[INFO ] 2022-03-30 13:17:27.784 [http-nio-8080-exec-5] UserRepo - connection open
+[INFO ] 2022-03-30 13:17:27.784 [http-nio-8080-exec-5] UserRepo - Entered method findById
+[INFO ] 2022-03-30 13:17:27.785 [http-nio-8080-exec-5] UserRepo - find by id has sent null 
+[INFO ] 2022-03-30 13:17:27.786 [http-nio-8080-exec-5] UserRepo - Exit method findById
+[INFO ] 2022-03-30 13:17:27.787 [http-nio-8080-exec-5] UserRepo - connection close
+[INFO ] 2022-03-30 13:17:27.839 [http-nio-8080-exec-5] UserRepo - connection open
+[INFO ] 2022-03-30 13:17:27.839 [http-nio-8080-exec-5] UserRepo - Entered to method create 
+[INFO ] 2022-03-30 13:17:27.840 [http-nio-8080-exec-5] UserRepo - Entered to create method to add DB 
+[INFO ] 2022-03-30 13:17:27.840 [http-nio-8080-exec-5] UserRepo - user_id :98
+[INFO ] 2022-03-30 13:17:27.840 [http-nio-8080-exec-5] UserRepo - full_name :Ranjith
+[INFO ] 2022-03-30 13:17:27.840 [http-nio-8080-exec-5] UserRepo - user_name :usereight
+[INFO ] 2022-03-30 13:17:27.840 [http-nio-8080-exec-5] UserRepo - Password : *****
+[INFO ] 2022-03-30 13:17:27.898 [http-nio-8080-exec-5] UserRepo - try block executed and added succeessfully to DB
+[INFO ] 2022-03-30 13:17:27.899 [http-nio-8080-exec-5] UserRepo - Exit :method create 
+[INFO ] 2022-03-30 13:17:27.900 [http-nio-8080-exec-5] UserRepo - connection close
+[INFO ] 2022-03-30 13:17:27.901 [http-nio-8080-exec-5] UserService - user registered successfully
+[INFO ] 2022-03-30 13:17:27.901 [http-nio-8080-exec-5] UserService - exit : readFilee method
+[INFO ] 2022-03-30 13:17:27.901 [http-nio-8080-exec-5] MyResource - Exit from loginrequest method
+[INFO ] 2022-03-30 13:17:27.901 [http-nio-8080-exec-5] MyResource - ---------------------------------------------------------------
